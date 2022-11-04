@@ -1,0 +1,49 @@
+{
+   "name":"Pool list",
+   "base_token":{
+      "id":"chihuahua-chain",
+      "chain_id":"chihuahua-1",
+      "token_address":"",
+      "symbol":"HUAHUA",
+      "name":"Huahua",
+      "decimals":6,
+      "logoURI":"https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/juno.png",
+      "tags":[
+         "native"
+      ],
+      "native":true,
+      "denom":"uhuahua"
+   },
+   "pools":[
+      {
+         "pool_id":"HUAHUA-HINU",
+         "pool_assets":[
+            {
+               "id":"chihuahua-chain",
+               "chain_id":"chihuahua-1",
+               "token_address":"",
+               "symbol":"HUAHUA",
+               "name":"Huahua",
+               "decimals":6,
+               "logoURI":"https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/juno.png",
+               "tags":[
+                  "native"
+               ],
+               "native":true,
+               "denom":"uhuahua"
+            },
+            {
+               "id":"",
+               "chain_id":"chihuahua-1",
+               "token_address":"",
+               "symbol":"HINU",
+               "name":"Huahua Inu",
+               "decimals":6,
+               "logoURI":"https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/Raw.png",
+               "tags":[
+                  "cw20"
+               ],
+               "native":false,
+               "denom":"Hinu"
+            },
+         
